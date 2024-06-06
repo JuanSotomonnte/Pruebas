@@ -1,18 +1,30 @@
 body{
-    background-color: gray;
+    background-color: #333;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
+}
+.titulos {
+    background-color: rgb(149, 80, 212);
+    border-radius: 20px;
+    color: white;
+    text-align: center;
 }
 
-#contenedor{
+.contenedor{
+    font-size: larger;
     border:2px white;
     border-radius: 10px;
     background-color: rgb(148, 127, 127);
     color :white;
+  text-align: center;
+
 }
-#contenedor:hover{
+.contenedor:hover{
+    font-size: larger;
+    transform: scaleX(1);
+animation-duration: 3s;
     border:2px white;
     border-radius: 10px;
     background-color: rgb(65, 60, 60);
     color :white;
+    text-align: center;
 }
